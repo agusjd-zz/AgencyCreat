@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "estilo.css",
+	"sources": [
+		"../sass/estilo.scss",
+		"../sass/fuente.scss",
+		"../sass/colores.scss",
+		"../sass/tamaños.scss"
+	],
+	"sourcesContent": [
+		"@import \"fuente\";\r\n@import \"colores\";\r\n@import \"tamaños\";\r\n\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n",
+		"$menu-font:normal 24px/1.5 'Hind Madurai', sans-serif; \r\n\r\n#menu{\r\n    font:$menu-font;\r\n}",
+		"#menu{\r\n    background-color: #000033 !important;\r\n}\r\n\r\n.navbar-dark .navbar-nav .nav-link{\r\n    color:#66cccc;\r\n}\r\n\r\n",
+		".logo{\r\n    width: 120px;\r\n}\r\n#boxBanner{\r\n    margin: 0;\r\n    padding: 0;\r\n    height: 600px;\r\n    width: auto;\r\n    #banner{\r\n        height: 100%;\r\n        width: 100%;\r\n        padding-top: 0px;\r\n        background-size: cover;\r\n    }      \r\n}"
+	],
+	"names": [],
+	"mappings": ";;ACEA,AAAA,KAAK,CAAA;EACD,IAAI,EAHG,MAAM,CAAC,IAAI,CAAC,GAAG,CAAC,cAAc,EAAE,UAAU;CAIpD;;;ACJD,AAAA,KAAK,CAAA;EACD,gBAAgB,EAAE,kBAAkB;CACvC;;;AAED,AAAA,YAAY,CAAC,WAAW,CAAC,SAAS,CAAA;EAC9B,KAAK,EAAC,OAAO;CAChB;;;ACND,AAAA,KAAK,CAAA;EACD,KAAK,EAAE,KAAK;CACf;;;AACD,AAAA,UAAU,CAAA;EACN,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;CAOd;;;AAXD,AAKI,UALM,CAKN,OAAO,CAAA;EACH,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,WAAW,EAAE,GAAG;EAChB,eAAe,EAAE,KAAK;CACzB;;;AHTL,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb"
+}

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "colores.css",
+	"sources": [
+		"../sass/colores.scss"
+	],
+	"sourcesContent": [
+		"#menu{\r\n    background-color: #000033 !important;\r\n}\r\n\r\n.navbar-dark .navbar-nav .nav-link{\r\n    color:#66cccc;\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,KAAK,CAAA;EACD,gBAAgB,EAAE,kBAAkB;CACvC;;;AAED,AAAA,YAAY,CAAC,WAAW,CAAC,SAAS,CAAA;EAC9B,KAAK,EAAC,OAAO;CAChB"
+}

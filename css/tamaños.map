@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "tamaños.css",
+	"sources": [
+		"../sass/tamaños.scss"
+	],
+	"sourcesContent": [
+		".logo{\r\n    width: 120px;\r\n}\r\n#boxBanner{\r\n    margin: 0;\r\n    padding: 0;\r\n    height: 600px;\r\n    width: auto;\r\n    #banner{\r\n        height: 100%;\r\n        width: 100%;\r\n        padding-top: 0px;\r\n        background-size: cover;\r\n    }      \r\n}"
+	],
+	"names": [],
+	"mappings": ";;AAAA,AAAA,KAAK,CAAA;EACD,KAAK,EAAE,KAAK;CACf;;;AACD,AAAA,UAAU,CAAA;EACN,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;CAOd;;;AAXD,AAKI,UALM,CAKN,OAAO,CAAA;EACH,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,WAAW,EAAE,GAAG;EAChB,eAAe,EAAE,KAAK;CACzB"
+}

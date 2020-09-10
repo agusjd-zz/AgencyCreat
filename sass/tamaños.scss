@@ -1,0 +1,142 @@
+/*Logo Menu*/
+.logo{
+    width: 120px;
+}
+/*Banner*/
+#boxBanner{
+    padding: 0;
+    height: 800px;
+    #banner{
+        height: 100%;
+        width: 100%;
+        padding-top: 0px;
+        background-size: cover;
+    }      
+}
+/*Titulos*/
+.tituloPrincipal{
+    margin-top: 50px;
+}
+
+/*Index*/
+#boxWeb{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    #imgWeb{
+        width: 420px;
+    }
+    #imgPos{
+        width: 400px;
+        height: 320px;
+        }
+    #imgDis{
+        width: 400px;
+    }
+} 
+/*Pie de pagina*/
+
+#pieDePagina{
+    width: 100%;
+    position: absolute;
+    height: auto;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .red1{
+        width: 40px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    #red2{
+        @extend.red1;
+    
+    }
+    #red3{
+        @extend.red1;
+    }
+}
+/*Tabla*/
+
+#tabla{
+    margin-bottom: 100px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+/*Portafolios*/
+
+.imagen1{
+    width: 380px;
+    height: 250px;
+   
+}
+.imagen2{
+    width: 380px;
+    height: 250px;
+  
+}
+.line2{
+    margin-bottom: 40px;
+}
+.imagen3{
+    width: 380px;
+    height: 250px;
+  
+    }
+.imagen4{
+    width: 380px;
+    height: 250px;
+  
+    }
+.imagen5{
+    width: 380px;
+    height: 250px;
+   
+    }
+.imagen6{
+    width: 380px;
+    height: 250px;
+   
+    }
+       
+
+/*Nosotros*/
+.imgNosotros1{
+    width: 250px;
+    height: 300px;
+    background-color: #47cdd6;
+    margin-bottom: 50px;
+}
+.imgNosotros2{
+    @extend.imgNosotros1;
+}
+.nosotros{
+    margin-bottom: 100px;
+}
+
+
+/*Formulario/Contactanos*/
+#contactanos{
+    background-image: url(../images/contactanos.png);
+    background-size: cover;
+    padding-bottom: 200px;
+   
+}
+
+#rowEmail{
+    margin-top: 10px;
+}
+
+#rowMes{
+    margin-top:10px
+}
+
+.checkBox{
+    margin-left: 20px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+.newsletter{
+    margin-top: 20px;
+}

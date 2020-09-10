@@ -1,0 +1,48 @@
+/*Variables*/
+$general-font:'Hind Madurai', sans-serif;
+
+/*Menu*/
+#menu{
+    font-size: 22px;
+    font-family:$general-font;
+}
+
+/*Titulos*/
+.tituloPrincipal{
+    font-family: $general-font;
+    font-size:3rem;
+
+}
+.titulos{
+    font-family: $general-font;
+    padding-top: 2rem;
+    font-weight: bolder;
+}
+
+.contact{
+    font-family: $general-font;
+    font-size: 1.5rem;
+
+}
+/*Parrafos*/
+.parrafos {
+    font-family: $general-font;
+    font-size: 1.52rem;
+    margin-top: 50px;
+}
+
+/*Pie de pagina*/
+#pieDePagina{
+    font-size: 20px;
+    font-family: $general-font;
+}
+
+/*Tabla*/
+#tabla{
+    font-family: $general-font;
+
+}
+/*Formulario*/
+form{
+    font-family: $general-font;
+}

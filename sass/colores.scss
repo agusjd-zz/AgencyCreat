@@ -1,0 +1,52 @@
+/*Variables*/
+$general-color:white;
+$fondo:azul;
+/*Menu*/
+#menu{
+    background-color: #000033 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:#66cccc;
+}
+/*Cuerpo*/
+body{
+    @if $fondo == azul{
+        background-color: #031634;    
+    }@else if$fondo == negro{
+        background-color: black;
+    }@else{
+        background-color: red;
+    }
+}
+/*Pie de pagina*/
+#pieDePagina{
+    background-image: linear-gradient(to bottom, #072E6C ,#031634 );
+}
+    
+/*Titulos*/
+.tituloPrincipal{
+    color: $general-color;
+}
+.titulos{
+    color: $general-color;
+}
+.contact{
+    color: $general-color;
+}
+/*Parrafos*/
+.parrafos{
+    color: $general-color;
+}
+/*Tabla*/
+th{
+    color: #33b5cc;
+    }
+td{
+    color: $general-color;
+}
+/*Formulario*/   
+form{
+    color: $general-color;
+}
+

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fuente.css",
+	"sources": [
+		"../sass/fuente.scss"
+	],
+	"sourcesContent": [
+		"$menu-font:normal 24px/1.5 'Hind Madurai', sans-serif; \r\n\r\n#menu{\r\n    font:$menu-font;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,KAAK,CAAA;EACD,IAAI,EAHG,MAAM,CAAC,IAAI,CAAC,GAAG,CAAC,cAAc,EAAE,UAAU;CAIpD"
+}
