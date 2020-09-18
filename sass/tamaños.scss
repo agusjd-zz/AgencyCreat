@@ -3,15 +3,13 @@
     width: 120px;
 }
 /*Banner*/
-#boxBanner{
-    padding: 0;
-    height: 650px;
-    #banner{
-        height: 100%;
-        width: 100%;
-        padding-top: 0px;
-        background-size: cover;
-    }      
+#banner{
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding-top: 0px;
+    background-size: cover;
+          
 }
 /*Titulos*/
 .tituloPrincipal{
