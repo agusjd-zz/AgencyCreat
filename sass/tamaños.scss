@@ -2,6 +2,12 @@
 .logo{
     width: 120px;
 }
+#menu{
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+
+}
 /*Banner*/
 #banner{
     max-height: 100%;
@@ -9,8 +15,11 @@
     min-width: 100%;
     padding-top: 0px;
     background-size: cover;
-           
+    position: relative;
+    z-index: 2;
+    margin-top: 50px;          
 }
+
 /*Titulos*/
 .tituloPrincipal{
     margin-top: 50px;
@@ -70,31 +79,25 @@
    
 }
 .imagen2{
-    width: 380px;
-    height: 250px;
+   @extend .imagen1;
   
 }
 .line2{
     margin-bottom: 40px;
 }
 .imagen3{
-    width: 380px;
-    height: 250px;
-  
+    @extend .imagen1;
     }
 .imagen4{
-    width: 380px;
-    height: 250px;
+    @extend .imagen1;
   
     }
 .imagen5{
-    width: 380px;
-    height: 250px;
+    @extend .imagen1;
    
     }
 .imagen6{
-    width: 380px;
-    height: 250px;
+    @extend .imagen1;
    
     }
        
