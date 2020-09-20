@@ -1,5 +1,5 @@
 /*Variables*/
-$general-color:white;
+$general-color:#ffffff;
 $fondo:azul;
 /*Menu*/
 #menu{
@@ -14,7 +14,7 @@ body{
     @if $fondo == azul{
         background-color: #031634;    
     }@else if$fondo == negro{
-        background-color: black;
+        background-color: #000000;
     }@else{
         background-color: red;
     }
@@ -29,6 +29,9 @@ body{
     color: $general-color;
 }
 .titulos{
+    color: $general-color;
+}
+.titulos_index{
     color: $general-color;
 }
 .contact{
