@@ -49,6 +49,7 @@
     margin-bottom: 0px;
     padding-top: 10px;
     padding-bottom: 2px;
+    
 }
 .red1{
     width: 40px;
@@ -110,9 +111,8 @@
 
 /*Nosotros*/
 .imgNosotros1{
-    width: 250px;
+    width: 400px;
     height: 300px;
-    background-color: #47cdd6;
     margin-bottom: 50px;
 }
 .imgNosotros2{
@@ -156,4 +156,10 @@ ul{
     display: inline;
 }
 
+.fondoservicios{
+    background-image: url(../images/servicios.png);
+    background-size: cover;
+    padding-bottom: 2px;
+    
 
+}
