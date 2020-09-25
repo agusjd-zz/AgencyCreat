@@ -2,17 +2,14 @@
 .logo{
     width: 120px;
 }
-#menu{
+.menu{
     width: 100%;
     position: fixed;
     z-index: 3;
 
 }
 /*Banner*/
-#banner{
-    max-height: 100%;
-    max-width: 100%;
-    min-width: 100%;
+.banner{
     padding-top: 0px;
     background-size: cover;
     position: relative;
@@ -162,4 +159,9 @@ ul{
     padding-bottom: 2px;
     
 
+}
+@media (min-width:768px){
+    .navbar-collapse{
+        justify-content: flex-end;
+    }
 }
