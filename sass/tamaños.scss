@@ -23,29 +23,33 @@
 }
 
 /*Index*/
-#boxWeb{
+.boxWeb{
     margin-top: 50px;
     margin-bottom: 100px;
-    #imgWeb{
-        width: 400px;
-    }
-    #imgPos{
-        width: 380px;
-        height: 320px;
-        }
-    #imgDis{
-        width: 400px;
-    }
-} 
+}
+.imgWeb{
+    width: 100%;
+    background-size: cover;
+}
+.imgPos{
+    width: 100%;
+    background-size: cover;
+}
+.imgDis{
+    width: 100%;
+    background-size: cover;
+}
+ 
 /*Pie de pagina*/
 
-#pieDePagina{
+.pieDePagina{
     width: 100%;
     position: absolute;
     height: auto;
     margin-bottom: 0px;
     padding-top: 10px;
     padding-bottom: 2px;
+
     
 }
 .red1{
@@ -78,8 +82,8 @@
 /*Portafolios*/
 
 .imagen1{
-    width: 380px;
-    height: 250px;
+    width: 100%;
+    background-size: cover;
    
 }
 .imagen2{
@@ -108,9 +112,10 @@
 
 /*Nosotros*/
 .imgNosotros1{
-    width: 400px;
-    height: 300px;
+    width: 100%;
     margin-bottom: 50px;
+    background-size: cover;
+    position: relative;
 }
 .imgNosotros2{
     @extend.imgNosotros1;
