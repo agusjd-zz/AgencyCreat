@@ -26,20 +26,17 @@
 .boxWeb{
     margin-top: 50px;
     margin-bottom: 100px;
+    .imgWeb {
+        width: 100%;
+        background-size: cover;
+    }
+    .imgPos{
+        @extend .imgWeb
+    }
+    .imgDis{
+        @extend .imgWeb
+    }
 }
-.imgWeb{
-    width: 100%;
-    background-size: cover;
-}
-.imgPos{
-    width: 100%;
-    background-size: cover;
-}
-.imgDis{
-    width: 100%;
-    background-size: cover;
-}
- 
 /*Pie de pagina*/
 
 .pieDePagina{
@@ -48,28 +45,23 @@
     height: auto;
     margin-bottom: 0px;
     padding-top: 10px;
-    padding-bottom: 2px;
-
-    
+    padding-bottom: 2px; 
+    .red1{
+        width: 40px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        margin-left: 25px;
+        }
+    .red2{
+        width: 40px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        
+        }
+    .red3{
+        @extend .red2
+        }
 }
-.red1{
-    width: 40px;
-    margin-right: 20px;
-    margin-bottom: 0px;
-    margin-left: 25px;
-    }
-.red2{
-    width: 40px;
-    margin-right: 20px;
-    margin-bottom: 0px;
-    
-    }
-.red3{
-    width: 40px;
-    margin-right: 20px;
-    margin-bottom: 0px;
-    }
-
 /*Tabla*/
 
 #tabla{
