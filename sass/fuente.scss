@@ -3,7 +3,7 @@ $general-font:'Hind Madurai', sans-serif;
 
 /*Menu*/
 .menu{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-family: $general-font;
 }
 
@@ -37,6 +37,13 @@ $general-font:'Hind Madurai', sans-serif;
     margin-top: 50px;
 }
 
+.parrafosIndex{
+    font-family: $general-font;
+    font-size: 1.52rem;
+    margin-top: 50px;
+
+}
+
 /*Pie de pagina*/
 .pieDePagina{
     font-size: 20px;
@@ -50,5 +57,8 @@ $general-font:'Hind Madurai', sans-serif;
 }
 /*Formulario*/
 form{
+    font-family: $general-font;
+}
+.table{
     font-family: $general-font;
 }

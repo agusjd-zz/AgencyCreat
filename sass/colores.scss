@@ -1,6 +1,7 @@
 /*Variables*/
 $general-color:#ffffff;
-$fondo:azul;
+$fondo:blanco;
+
 /*Menu*/
 .menu{
     background-color: #000033 !important;
@@ -16,23 +17,23 @@ body{
     }@else if$fondo == negro{
         background-color: #000000;
     }@else{
-        background-color: red;
+        background-color: #fbfbfd;
     }
 }
 /*Pie de pagina*/
 .pieDePagina{
-    background-color: #00004d;
+    background-color:#031634;
 }
     
 /*Titulos*/
 .tituloPrincipal{
-    color: $general-color;
+    color: #171718;
 }
 .titulos{
     color: $general-color;
 }
 .titulos_index{
-    color: $general-color;
+    color: #171718;
 }
 .contact{
     color: $general-color;
@@ -41,15 +42,20 @@ body{
 .parrafos{
     color: $general-color;
 }
+.parrafosIndex{
+    color: #171718;
+}
 /*Tabla*/
-th{
-    color: #33b5cc;
-    }
-td{
-    color: $general-color;
+.table{
+    color: #171718;
 }
 /*Formulario*/   
 form{
     color: $general-color;
 }
 
+.btn-primary{
+    border: #66cccc;
+    background-color: #66cccc;
+
+}
