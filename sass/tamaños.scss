@@ -14,6 +14,10 @@
     .navbar-collapse{
         justify-content: flex-end;
     }
+    .valoraciones{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
 
 /*Banner*/
@@ -84,14 +88,11 @@
     background: #f1f3f3;
     box-shadow: -10px -9px 13px -6px rgba(0,0,0,1);
     margin-bottom: 20px;
+    height: 50vh;
     
 }
 .table th{
     font-size: 1.5rem;
-}
-
-.button_service{
-    background-color: #66cccc;
 }
 
 /*Portafolios*/
@@ -180,9 +181,6 @@
     margin-top: 20px;
 }
 
-ul{
-    list-style: none ;
-}
 
 /* Servicios */
 .fondoservicios{
@@ -196,18 +194,26 @@ ul{
 }
 .serviciosBox{
     padding-top: 50px;
+    margin: auto;
 }
 
+.portfolioBox{
+    margin: auto;
+}
 
 
 
 
 .valoraciones{
-    padding-left: 100px;
-    padding-right: 100px;
     font-size: 1.3rem;
 }
 .valoracionesBox{
     border: solid 4px darkblue;
     padding: 50px;
+}
+.valor{
+    margin-bottom: 0;
+}
+h3{
+    padding-bottom: 2vh;
 }
