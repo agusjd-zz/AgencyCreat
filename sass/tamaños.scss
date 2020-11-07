@@ -138,14 +138,7 @@
     @extend .imagen1;
   
     }
-.imagen5{
-    @extend .imagen1;
-   
-    }
-.imagen6{
-    @extend .imagen1;
-   
-    }
+
 .portafolio{
     background-image: url(../images/portafolio2.png);
     background-size: cover;
@@ -225,7 +218,7 @@
 .valoracionesBox{
     border: solid 4px #031634;
     padding: 50px;
-    padding-top: 10vh;
+    padding-top: 6vh;
 }
 .valor{
     margin-bottom: 0;
