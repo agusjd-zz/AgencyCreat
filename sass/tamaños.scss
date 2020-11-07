@@ -219,14 +219,13 @@
 }
 
 
-
-
 .valoraciones{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 .valoracionesBox{
     border: solid 4px #031634;
     padding: 50px;
+    padding-top: 10vh;
 }
 .valor{
     margin-bottom: 0;
@@ -234,4 +233,7 @@
 h3{
     padding-bottom: 2vh;
     font-size: 5vh;
+}
+.logoFooter{
+    width: 30vh;
 }
