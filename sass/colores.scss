@@ -39,7 +39,10 @@ body{
     color: $general-color;
 }
 .titulos_index{
-    color: #171718;
+    color:#031634;
+}
+.serviceTitle{
+    color: #17cb97;
 }
 .contact{
     color: $general-color;
@@ -56,8 +59,9 @@ body{
     color: #171718;
 }
 .btn-primary{
-    border: #17cb97;
+    border:solid 1px #17cb97;
     background-color: #17cb97;
+    border-radius: 30px 30px 30px 30px;
 
 }
 /*Formulario*/   
@@ -65,3 +69,6 @@ form{
     color: $general-color;
 }
 
+.table th{
+    color:#12a177;
+}

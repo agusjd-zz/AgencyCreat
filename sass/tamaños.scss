@@ -50,6 +50,17 @@
         @extend .imgWeb
     }
 }
+.recomenImg{
+    width: 30vh;
+    padding-right: 20px;
+    float: left;
+}
+@media (max-width:768px){
+    .recomenImg{
+        float: none;
+        padding-bottom: 40px;
+    }
+}
 /*Pie de pagina*/
 
 .pieDePagina{
@@ -88,11 +99,17 @@
     background: #f1f3f3;
     box-shadow: -10px -9px 13px -6px rgba(0,0,0,1);
     margin-bottom: 20px;
-    height: 50vh;
+    min-height: 50vh;
     
 }
+@media (max-width:768px){
+    .table{
+        min-height: 40vh;
+
+    }
+}
 .table th{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 /*Portafolios*/
@@ -205,7 +222,7 @@
 
 
 .valoraciones{
-    font-size: 1.3rem;
+    font-size: 1.8rem;
 }
 .valoracionesBox{
     border: solid 4px darkblue;
@@ -216,4 +233,5 @@
 }
 h3{
     padding-bottom: 2vh;
+    font-size: 5vh;
 }
